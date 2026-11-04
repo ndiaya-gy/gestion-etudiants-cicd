@@ -1,0 +1,15 @@
+
+  deployer:
+    needs: ........              # (9)
+    if: github.event_name != '........'   # (10)
+    runs-on: ubuntu-latest
+    permissions:
+      pages: ........            # (11)
+      id-token: write
+    environment:
+      name: ........             # (12)
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - name: Déployer sur GitHub Pages
+        id: deploiement
+        uses: actions/........@v5   # (13)

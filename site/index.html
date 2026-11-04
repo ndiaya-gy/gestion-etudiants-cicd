@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestion des étudiants — ISEP Diamniadio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Gestion des étudiants</h1>
+    <p>ISEP de Diamniadio — année 2026-2027</p>
+  </header>
+
+  <div id="erreur" class="bandeau" hidden>
+    Données non chargées : le fichier etudiants.json est introuvable.
+    Le site doit être fabriqué par <code>generer.py</code> (ou par le pipeline).
+  </div>
+
+  <main>
+    <section class="chiffres">
+      <div class="carte"><span id="effectif">–</span><small>étudiants</small></div>
+      <div class="carte"><span id="moyenne">–</span><small>moyenne générale</small></div>
+      <div class="carte"><span id="reussite">–</span><small>taux de réussite</small></div>
+      <div class="carte"><span id="filieres">–</span><small>filières</small></div>
+    </section>
+
+    <input id="recherche" type="search" placeholder="Rechercher un nom, un matricule, une ville, une filière…">
+
+    <table>
+      <thead>
+        <tr><th>Matricule</th><th>Prénom</th><th>Nom</th><th>Ville</th><th>Filière</th><th>Année</th><th>Moyenne</th></tr>
+      </thead>
+      <tbody id="liste"></tbody>
+    </table>
+  </main>
+
+  <footer>
+    <span>Version 1.0</span> ·
+    <span id="construction">fabriqué par le pipeline CI/CD</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

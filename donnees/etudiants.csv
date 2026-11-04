@@ -1,0 +1,61 @@
+matricule,prenom,nom,date_naissance,ville,filiere,annee,email,moyenne
+ISEP26-0001,Mariama,Ndao,2005-10-20,Diourbel,Administration de bases de données,1,mariama.ndao1@etudiant.exemple.sn,8.04
+ISEP26-0002,Malick,Badji,2004-01-20,Thiès,Développement web et mobile,2,malick.badji2@etudiant.exemple.sn,10.72
+ISEP26-0003,Mariama,Mbaye,2003-01-27,Ziguinchor,Réseaux et télécoms,1,mariama.mbaye3@etudiant.exemple.sn,14.64
+ISEP26-0004,Modou,Seck,2003-06-26,Rufisque,DevOps et cloud,2,modou.seck4@etudiant.exemple.sn,10.39
+ISEP26-0005,Ramatoulaye,Dieng,2004-02-18,Saint-Louis,Administration de bases de données,1,ramatoulaye.dieng5@etudiant.exemple.sn,10.22
+ISEP26-0006,Souleymane,Mbaye,2004-06-15,Rufisque,Développement web et mobile,1,souleymane.mbaye6@etudiant.exemple.sn,11.79
+ISEP26-0007,Aminata,Seck,2005-07-17,Mbour,Réseaux et télécoms,2,aminata.seck7@etudiant.exemple.sn,13.99
+ISEP26-0008,Moustapha,Niang,2002-10-16,Diourbel,DevOps et cloud,2,moustapha.niang8@etudiant.exemple.sn,7.36
+ISEP26-0009,Ramatoulaye,Diop,2005-01-23,Tambacounda,Administration de bases de données,1,ramatoulaye.diop9@etudiant.exemple.sn,8.47
+ISEP26-0010,Assane,Thiam,2004-08-08,Thiès,Développement web et mobile,2,assane.thiam10@etudiant.exemple.sn,11.74
+ISEP26-0011,Sokhna,Mbengue,2003-09-13,Pikine,Réseaux et télécoms,2,sokhna.mbengue11@etudiant.exemple.sn,11.22
+ISEP26-0012,Omar,Sène,2002-07-07,Touba,DevOps et cloud,2,omar.sene12@etudiant.exemple.sn,10.35
+ISEP26-0013,Bineta,Diop,2005-11-20,Mbour,Administration de bases de données,1,bineta.diop13@etudiant.exemple.sn,16.85
+ISEP26-0014,Lamine,Diallo,2002-08-17,Mbour,Développement web et mobile,2,lamine.diallo14@etudiant.exemple.sn,11.15
+ISEP26-0015,Maimouna,Diouf,2004-06-15,Tambacounda,Réseaux et télécoms,1,maimouna.diouf15@etudiant.exemple.sn,13.33
+ISEP26-0016,Omar,Faye,2004-07-27,Tambacounda,DevOps et cloud,2,omar.faye16@etudiant.exemple.sn,11.71
+ISEP26-0017,Adja,Fall,2002-06-04,Saint-Louis,Administration de bases de données,2,adja.fall17@etudiant.exemple.sn,14.05
+ISEP26-0018,Saliou,Diop,2006-08-19,Diourbel,Développement web et mobile,1,saliou.diop18@etudiant.exemple.sn,17.12
+ISEP26-0019,Aminata,Touré,2005-02-20,Touba,Réseaux et télécoms,1,aminata.toure19@etudiant.exemple.sn,15.44
+ISEP26-0020,Lamine,Ba,2004-11-19,Louga,DevOps et cloud,1,lamine.ba20@etudiant.exemple.sn,13.21
+ISEP26-0021,Adja,Sène,2005-08-19,Tambacounda,Administration de bases de données,1,adja.sene21@etudiant.exemple.sn,14.68
+ISEP26-0022,Omar,Mbaye,2003-11-06,Saint-Louis,Développement web et mobile,1,omar.mbaye22@etudiant.exemple.sn,14.88
+ISEP26-0023,Nafissatou,Mbaye,2002-03-17,Thiès,Réseaux et télécoms,2,nafissatou.mbaye23@etudiant.exemple.sn,13.18
+ISEP26-0024,Moustapha,Fall,2004-11-12,Dakar,DevOps et cloud,1,moustapha.fall24@etudiant.exemple.sn,9.93
+ISEP26-0025,Awa,Niang,2003-11-10,Mbour,Administration de bases de données,2,awa.niang25@etudiant.exemple.sn,6.82
+ISEP26-0026,Saliou,Camara,2005-10-17,Kaolack,Développement web et mobile,1,saliou.camara26@etudiant.exemple.sn,14.07
+ISEP26-0027,Maimouna,Touré,2002-10-08,Rufisque,Réseaux et télécoms,2,maimouna.toure27@etudiant.exemple.sn,11.87
+ISEP26-0028,Ibrahima,Diallo,2006-11-18,Dakar,DevOps et cloud,1,ibrahima.diallo28@etudiant.exemple.sn,11.41
+ISEP26-0029,Sokhna,Badji,2003-12-22,Diourbel,Administration de bases de données,1,sokhna.badji29@etudiant.exemple.sn,13.28
+ISEP26-0030,Modou,Niang,2005-11-28,Saint-Louis,Développement web et mobile,1,modou.niang30@etudiant.exemple.sn,11.35
+ISEP26-0031,Dieynaba,Faye,2002-02-13,Touba,Réseaux et télécoms,2,dieynaba.faye31@etudiant.exemple.sn,11.49
+ISEP26-0032,Saliou,Sy,2003-08-06,Ziguinchor,DevOps et cloud,2,saliou.sy32@etudiant.exemple.sn,14.55
+ISEP26-0033,Ramatoulaye,Sy,2005-09-26,Thiès,Administration de bases de données,2,ramatoulaye.sy33@etudiant.exemple.sn,10.25
+ISEP26-0034,Modou,Gueye,2006-08-21,Ziguinchor,Développement web et mobile,1,modou.gueye34@etudiant.exemple.sn,11.98
+ISEP26-0035,Maimouna,Diouf,2006-06-28,Louga,Réseaux et télécoms,1,maimouna.diouf35@etudiant.exemple.sn,14.15
+ISEP26-0036,El Hadji,Diallo,2004-09-25,Louga,DevOps et cloud,1,elhadji.diallo36@etudiant.exemple.sn,15.08
+ISEP26-0037,Aïssatou,Camara,2003-11-18,Thiès,Administration de bases de données,2,aissatou.camara37@etudiant.exemple.sn,15.35
+ISEP26-0038,Aliou,Sow,2006-06-24,Saint-Louis,Développement web et mobile,1,aliou.sow38@etudiant.exemple.sn,15.66
+ISEP26-0039,Mariama,Niang,2003-10-27,Saint-Louis,Réseaux et télécoms,2,mariama.niang39@etudiant.exemple.sn,17.85
+ISEP26-0040,Babacar,Faye,2006-07-28,Touba,DevOps et cloud,1,babacar.faye40@etudiant.exemple.sn,14.66
+ISEP26-0041,Maimouna,Diop,2006-04-01,Diourbel,Administration de bases de données,1,maimouna.diop41@etudiant.exemple.sn,11.88
+ISEP26-0042,Souleymane,Cissé,2002-10-21,Pikine,Développement web et mobile,2,souleymane.cisse42@etudiant.exemple.sn,13.37
+ISEP26-0043,Oumou,Ndiaye,2003-10-07,Pikine,Réseaux et télécoms,2,oumou.ndiaye43@etudiant.exemple.sn,10.02
+ISEP26-0044,Ousmane,Mbengue,2003-07-10,Ziguinchor,DevOps et cloud,2,ousmane.mbengue44@etudiant.exemple.sn,10.77
+ISEP26-0045,Fatou,Wade,2005-05-23,Thiès,Administration de bases de données,2,fatou.wade45@etudiant.exemple.sn,10.27
+ISEP26-0046,Serigne,Badji,2003-10-01,Diourbel,Développement web et mobile,2,serigne.badji46@etudiant.exemple.sn,15.97
+ISEP26-0047,Astou,Diallo,2006-03-20,Diourbel,Réseaux et télécoms,1,astou.diallo47@etudiant.exemple.sn,12.81
+ISEP26-0048,Lamine,Touré,2005-07-19,Saint-Louis,DevOps et cloud,2,lamine.toure48@etudiant.exemple.sn,12.80
+ISEP26-0049,Seynabou,Thiam,2002-04-25,Saint-Louis,Administration de bases de données,2,seynabou.thiam49@etudiant.exemple.sn,10.69
+ISEP26-0050,Abdoulaye,Diouf,2003-05-26,Saint-Louis,Développement web et mobile,1,abdoulaye.diouf50@etudiant.exemple.sn,13.17
+ISEP26-0051,Coumba,Diop,2004-09-16,Saint-Louis,Réseaux et télécoms,1,coumba.diop51@etudiant.exemple.sn,6.60
+ISEP26-0052,Souleymane,Fall,2006-11-28,Diourbel,DevOps et cloud,1,souleymane.fall52@etudiant.exemple.sn,15.54
+ISEP26-0053,Bineta,Ndao,2005-11-27,Mbour,Administration de bases de données,2,bineta.ndao53@etudiant.exemple.sn,19.47
+ISEP26-0054,Ibrahima,Gueye,2003-12-12,Kaolack,Développement web et mobile,1,ibrahima.gueye54@etudiant.exemple.sn,12.81
+ISEP26-0055,Yacine,Faye,2004-06-12,Mbour,Réseaux et télécoms,2,yacine.faye55@etudiant.exemple.sn,9.52
+ISEP26-0056,Souleymane,Mbaye,2005-11-14,Saint-Louis,DevOps et cloud,1,souleymane.mbaye56@etudiant.exemple.sn,13.03
+ISEP26-0057,Adja,Diop,2002-01-21,Diourbel,Administration de bases de données,2,adja.diop57@etudiant.exemple.sn,13.32
+ISEP26-0058,Babacar,Ba,2006-09-07,Tambacounda,Développement web et mobile,1,babacar.ba58@etudiant.exemple.sn,14.24
+ISEP26-0059,Nafissatou,Mbaye,2003-07-18,Pikine,Réseaux et télécoms,1,nafissatou.mbaye59@etudiant.exemple.sn,15.35
+ISEP26-0060,Abdoulaye,Niang,2006-03-24,Rufisque,DevOps et cloud,1,abdoulaye.niang60@etudiant.exemple.sn,11.58

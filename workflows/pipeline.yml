@@ -1,0 +1,26 @@
+name: Gestion des étudiants
+
+on:
+  ........:                 # (1)
+    branches: [main]
+  ........:                 # (2)
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  tester:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v7
+
+      - name: Installer Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: ........   # (3)
+
+      - name: Installer pytest
+        run: pip install pytest
+
+      - name: Lancer les tests
+        run: ........              # (4)
