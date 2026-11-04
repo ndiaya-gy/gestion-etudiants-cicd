@@ -1,6 +1,6 @@
 
   construire:
-    needs: ........              # (5)
+    needs: tester
     runs-on: ubuntu-latest
     steps:
       - name: Récupérer le code
@@ -13,14 +13,14 @@
 
       - name: Fabriquer le site
         run: |
-          python ........        # (6)
+          python generer.py
           ls -l _site
 
       - name: Livrer l'artefact à télécharger
         uses: actions/upload-artifact@v7
         with:
-          name: ........         # (7)
-          path: ........         # (8)
+          name: site-gestion
+          path: _site/
 
       - name: Livrer l'artefact pour GitHub Pages
         uses: actions/upload-pages-artifact@v5

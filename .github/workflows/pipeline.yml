@@ -24,3 +24,31 @@ jobs:
 
       - name: Lancer les tests
         run: pytest -v test_generer.py
+
+  construire:
+    needs: tester
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v7
+
+      - name: Installer Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Fabriquer le site
+        run: |
+          python generer.py
+          ls -l _site
+
+      - name: Livrer l'artefact à télécharger
+        uses: actions/upload-artifact@v7
+        with:
+          name: site-gestion
+          path: _site/
+
+      - name: Livrer l'artefact pour GitHub Pages
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site/
