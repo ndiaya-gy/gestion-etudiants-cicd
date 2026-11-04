@@ -1,9 +1,9 @@
 name: Gestion des étudiants
 
 on:
-  ........:                 # (1)
+  push:
     branches: [main]
-  ........:                 # (2)
+  pull_request:
     branches: [main]
   workflow_dispatch:
 
@@ -17,10 +17,10 @@ jobs:
       - name: Installer Python
         uses: actions/setup-python@v7
         with:
-          python-version: ........   # (3)
+          python-version: "3.10"
 
       - name: Installer pytest
         run: pip install pytest
 
       - name: Lancer les tests
-        run: ........              # (4)
+        run: pytest -v test_generer.py
