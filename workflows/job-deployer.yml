@@ -1,15 +1,15 @@
 
   deployer:
-    needs: ........              # (9)
-    if: github.event_name != '........'   # (10)
+    needs: construire
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     permissions:
-      pages: ........            # (11)
+      pages: write
       id-token: write
     environment:
-      name: ........             # (12)
+      name: github-pages
       url: ${{ steps.deploiement.outputs.page_url }}
     steps:
       - name: Déployer sur GitHub Pages
         id: deploiement
-        uses: actions/........@v5   # (13)
+        uses: actions/deploy-pages@v4
